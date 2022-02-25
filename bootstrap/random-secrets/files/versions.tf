@@ -1,6 +1,6 @@
 terraform {
   backend "kubernetes" {
     secret_suffix     = "random-secrets"
-    in_cluster_config = true
+    # in_cluster_config = true
   }
 }
